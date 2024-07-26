@@ -1,4 +1,5 @@
 import random
+
 import cv2
 import numpy as np
 from ultralytics import YOLO
@@ -89,6 +90,5 @@ def object_detection():
 
     cap.release()
     cv2.destroyAllWindows()
-
 
 object_detection()
