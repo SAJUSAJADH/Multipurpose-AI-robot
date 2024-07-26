@@ -7,7 +7,7 @@ import sys
 from collections import deque
 import face_recognition
 from ultralytics import YOLO
-from deepface import deepface
+from deepface import DeepFace
 
 
 
